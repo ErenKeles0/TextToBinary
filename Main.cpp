@@ -56,8 +56,8 @@ string decimal_to_binary(int decimal) {
     }
 
     // Add leading zeros to make it 8 bits if necessary
-    if (binary.length() < 16) {
-        binary.insert(0, 16 - binary.length(), '0');
+    if (binary.length() < 8) {
+        binary.insert(0, 8 - binary.length(), '0');
     }
 
     // Return the binary value
